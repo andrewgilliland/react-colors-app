@@ -2,12 +2,11 @@ import React, { Component } from "react";
 import MiniPalette from "./MiniPalette";
 import { Link } from "react-router-dom";
 import { withStyles } from "@material-ui/styles";
-import { border } from "@material-ui/system";
 
 const styles = {
   root: {
     backgroundColor: "blue",
-    height: "100%",
+    height: "100vh",
     display: "flex",
     alignItems: "flex-start",
     justifyContent: "center"
