@@ -75,7 +75,7 @@ export default {
       color: "black",
       letterSpacing: "1px",
       textTransform: "uppercase",
-      fontSize: "12px",
+      fontSize: "12px"
     },
   
     copyOverlay: {

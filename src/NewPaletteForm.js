@@ -186,7 +186,6 @@ class NewPaletteForm extends Component {
                 validators={["required", "isPaletteNameUnique"]}
                 errorMessages={["Enter Palette Name", "Name already used"]}
               />
-
               <Button variant="contained" color="primary" type="submit">
                 Save Palette
               </Button>
