@@ -11,6 +11,7 @@ export default {
       opacity: 1
     }
   },
+
   colors: {
     backgroundColor: "#dae1e4",
     height: "125px",
@@ -28,10 +29,12 @@ export default {
     fontSize: "1rem",
     position: "relative"
   },
+
   emoji: {
     marginLeft: "0.5rem",
     fontSize: "1.5rem"
   },
+
   miniColor: {
     height: "25%",
     width: "20%",
@@ -39,10 +42,6 @@ export default {
     margin: "0 auto",
     position: "relative",
     marginBottom: "-4px"
-  },
-
-  delete: {
-
   },
 
   deleteIcon: {
