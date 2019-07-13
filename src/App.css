@@ -1,4 +1,10 @@
-.App {
+.page {
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -30,4 +36,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
