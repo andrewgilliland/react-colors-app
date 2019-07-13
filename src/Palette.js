@@ -1,11 +1,11 @@
 import React, { Component } from "react";
+import { withStyles } from "@material-ui/styles";
+
 import ColorBox from "./ColorBox";
 import Navbar from "./Navbar";
-import PaletteFooter from './PaletteFooter';
+import PaletteFooter from "./PaletteFooter";
+
 import styles from "./styles/PaletteStyles";
-import { withStyles } from '@material-ui/styles';
-
-
 
 class Palette extends Component {
   constructor(props) {
@@ -47,7 +47,7 @@ class Palette extends Component {
           showingAllColors={true}
         />
         <div className={classes.colors}>{colorBoxes}</div>
-        <PaletteFooter paletteName={paletteName} emoji={emoji}/>
+        <PaletteFooter paletteName={paletteName} emoji={emoji} />
       </div>
     );
   }
