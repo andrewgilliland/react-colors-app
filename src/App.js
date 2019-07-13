@@ -5,7 +5,7 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Palette from "./Palette";
 import PaletteList from "./PaletteList";
 import SingleColorPalette from "./SingleColorPalette";
-import Page from './Page';
+import Page from "./Page";
 
 import seedColors from "./seedColors";
 import NewPaletteForm from "./NewPaletteForm";
@@ -98,6 +98,7 @@ class App extends Component {
                     </Page>
                   )}
                 />
+
                 <Route
                   exact
                   path="/palette/:id"
@@ -107,6 +108,18 @@ class App extends Component {
                         palette={generatePalette(
                           this.findPalette(routeProps.match.params.id)
                         )}
+                      />
+                    </Page>
+                  )}
+                />
+
+                <Route
+                  render={routeProps => (
+                    <Page>
+                      <NewPaletteForm
+                        savePalette={this.savePalette}
+                        palettes={this.state.palettes}
+                        {...routeProps}
                       />
                     </Page>
                   )}
