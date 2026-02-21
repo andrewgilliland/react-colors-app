@@ -17,7 +17,7 @@ import red from "@material-ui/core/colors/red";
 
 import MiniPalette from "./MiniPalette";
 
-import styles from "./styles/PaletteListStyles";
+import styles from "../styles/PaletteListStyles";
 
 class PaletteList extends Component {
   constructor(props) {

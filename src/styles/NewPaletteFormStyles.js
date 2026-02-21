@@ -1,4 +1,4 @@
-import {DRAWER_WIDTH} from "../contants";
+import {DRAWER_WIDTH} from "../utils/contants";
 
 const drawerWidth = DRAWER_WIDTH;
 

@@ -7,9 +7,9 @@ import PaletteList from "./PaletteList";
 import SingleColorPalette from "./SingleColorPalette";
 import Page from "./Page";
 
-import seedColors from "./seedColors";
+import seedColors from "../utils/seedColors";
 import NewPaletteForm from "./NewPaletteForm";
-import { generatePalette } from "./colorHelpers";
+import { generatePalette } from "../utils/colorHelpers";
 
 class App extends Component {
   constructor(props) {
